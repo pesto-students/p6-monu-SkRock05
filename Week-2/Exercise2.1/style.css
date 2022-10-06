@@ -1,0 +1,54 @@
+header {
+  text-align: center;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.container {
+  width: 75%;
+  height: 50%;
+  position: relative;
+  left: 12.5%;
+  margin-top: 5%;
+}
+
+.leftContainer {
+  width: 45%;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.rightContainer {
+  width: 45%;
+  display: inline-block;
+  margin-left: 5%;
+  position: absolute;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  height: 50px;
+  width: 200px;
+  background-color: aquamarine;
+  text-align: center;
+  position: relative;
+  left: 41.5%;
+}
+
+footer > p{
+    padding-top: 8%;
+}
+
+.formContainer{
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+#fName{
+    
+}
