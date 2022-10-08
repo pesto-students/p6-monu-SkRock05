@@ -1,3 +1,9 @@
+body {
+  background-color: #f5f7fb;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   text-align: center;
   width: 50%;
@@ -32,23 +38,71 @@ img {
 
 footer {
   height: 50px;
-  width: 200px;
-  background-color: aquamarine;
+  width: 79em;
+  background-color: #ea7f3b;
   text-align: center;
   position: relative;
-  left: 41.5%;
 }
 
-footer > p{
-    padding-top: 8%;
+footer > p {
+  padding-top: 1.2%;
 }
 
-.formContainer{
-    width: 50%;
-    position: relative;
-    left: 25%;
+.formContainer {
+  background-color: #f5f7fb;
+  width: 50%;
+  position: relative;
+  left: 25%;
 }
 
-#fName{
-    
+.firstName {
+  display: inline-block;
+  width: 11em;
+  margin-right: 2em;
+}
+
+.lastName {
+  display: inline-block;
+}
+
+.nameTitle {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.phoneNo {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.password {
+  margin-right: 1em;
+  display: inline-block;
+}
+
+.confPassword {
+  display: inline-block;
+}
+
+.country {
+  display: inline-block;
+}
+
+.submitButton {
+  margin-top: 1em;
+}
+
+input {
+  border: 0px;
+  height: 2em;
+}
+
+.submitButton > button {
+  border: 0px;
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  background-color: #5da4ff;
+}
+button:hover {
+  background-color: #64f8ff;
 }
