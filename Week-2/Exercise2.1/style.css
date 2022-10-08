@@ -41,7 +41,7 @@ footer {
   width: 79em;
   background-color: #ea7f3b;
   text-align: center;
-  position: relative;
+  position: sticky;
 }
 
 footer > p {
@@ -55,24 +55,66 @@ footer > p {
   left: 25%;
 }
 
+.nameTitle > select {
+  height: 2em;
+  border: 0px;
+  width: 14em;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
 .firstName {
   display: inline-block;
   width: 11em;
   margin-right: 2em;
 }
 
+.firstName > input {
+  border: 0px;
+  height: 2em;
+  width: 14em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+}
+
 .lastName {
   display: inline-block;
 }
 
+.lastName > input {
+  border: 0px;
+  height: 2em;
+  width: 14em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+}
 .nameTitle {
   display: inline-block;
   margin-right: 1em;
 }
 
+.email > input {
+  border: 0px;
+  height: 2em;
+  width: 45.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+}
 .phoneNo {
   display: inline-block;
   margin-right: 1em;
+}
+
+.phoneNo > input {
+  border: 0px;
+  height: 2em;
+  width: 21.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 7px;
 }
 
 .password {
@@ -88,8 +130,35 @@ footer > p {
   display: inline-block;
 }
 
+.country > input {
+  border: 0px;
+  height: 2em;
+  width: 21.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+}
+
 .submitButton {
   margin-top: 1em;
+}
+
+.password > input {
+  border: 0px;
+  height: 2em;
+  width: 21.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+}
+
+.confPassword > input {
+  border: 0px;
+  height: 2em;
+  width: 21.6em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 7px;
 }
 
 input {
@@ -105,4 +174,38 @@ input {
 }
 button:hover {
   background-color: #64f8ff;
+}
+
+@media only screen and (max-width: 500px) {
+  .rightContainer {
+    display: block;
+    position: relative;
+    width: 90%;
+  }
+
+  .leftContainer {
+    width: 90%;
+    left: 5%;
+    position: relative;
+  }
+
+  .formContainer {
+    left: 17%;
+  }
+
+  .email > input {
+    width: 21.5em;
+  }
+
+  footer{
+    width: 30em;
+  }
+  footer > p {
+    padding-top: 3.2%;
+  }
+
+  header{
+    width: 90%;
+    left: 5%;
+  }
 }

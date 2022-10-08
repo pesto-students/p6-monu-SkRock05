@@ -1,0 +1,70 @@
+.container{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 37.5%;
+    font-size: 0px;
+}
+
+.container:hover{
+    
+}
+
+.topLeftBox{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: red;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.topLeftBox:hover{
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+}
+
+.topRightBox{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: yellow;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.topRightBox:hover{
+    transform: rotate(-90deg);
+    transform-origin: 100% 0%;
+}
+
+.bottomLeftBox{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: blue;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.bottomLeftBox:hover{
+    transform: rotate(-90deg);
+    transform-origin: 0% 100%;
+}
+
+.bottomRightBox{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: green;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.bottomRightBox:hover{
+    transform: rotate(90deg);
+    transform-origin: 100% 100%;
+}
