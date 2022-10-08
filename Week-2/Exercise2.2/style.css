@@ -6,11 +6,7 @@
     font-size: 0px;
 }
 
-.container:hover{
-    
-}
-
-.topLeftBox{
+.container .topLeftBox{
     width: 150px;
     height: 150px;
     position: relative;
@@ -19,12 +15,12 @@
     transition-property: all;
     transition-duration: 1s;
 }
-.topLeftBox:hover{
+.container:hover .topLeftBox{
     transform: rotate(90deg);
     transform-origin: 0% 0%;
 }
 
-.topRightBox{
+.container .topRightBox{
     width: 150px;
     height: 150px;
     position: relative;
@@ -34,12 +30,12 @@
     transition-duration: 1s;
 }
 
-.topRightBox:hover{
+.container:hover .topRightBox{
     transform: rotate(-90deg);
     transform-origin: 100% 0%;
 }
 
-.bottomLeftBox{
+.container .bottomLeftBox{
     width: 150px;
     height: 150px;
     position: relative;
@@ -49,12 +45,12 @@
     transition-duration: 1s;
 }
 
-.bottomLeftBox:hover{
+.container:hover .bottomLeftBox{
     transform: rotate(-90deg);
     transform-origin: 0% 100%;
 }
 
-.bottomRightBox{
+.container .bottomRightBox{
     width: 150px;
     height: 150px;
     position: relative;
@@ -64,7 +60,7 @@
     transition-duration: 1s;
 }
 
-.bottomRightBox:hover{
+.container:hover .bottomRightBox{
     transform: rotate(90deg);
     transform-origin: 100% 100%;
 }
