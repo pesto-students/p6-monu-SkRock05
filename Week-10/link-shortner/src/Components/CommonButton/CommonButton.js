@@ -1,5 +1,10 @@
 import React from "react";
 
 export function CommonButton(props) {
-  return <button className={props.className}>{props.children}</button>;
+  // console.log(props);
+  return (
+    <button className={props.className} onClick={props.event}>
+      {props.children}
+    </button>
+  );
 }
