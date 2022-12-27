@@ -1,0 +1,21 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(#63d8d1, #4e90e3);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0%;
+}
+
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 25%;
+}

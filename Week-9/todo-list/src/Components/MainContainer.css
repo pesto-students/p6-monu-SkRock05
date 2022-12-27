@@ -1,0 +1,66 @@
+.mainContainer {
+  background: white;
+  height: fit-content;
+  width: 400px;
+  border-radius: 2%;
+  padding: 0 20px 0 20px;
+}
+
+#addTodoInput {
+  height: 36px;
+  width: 328px;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+}
+
+.plusButton {
+  height: 40px;
+  width: 40px;
+  margin-left: 8px;
+  background-color: #8e49e9;
+  border: none;
+  text-align: center;
+  font-size: 34px;
+  color: white;
+  vertical-align: bottom;
+  border-radius: 3px;
+}
+
+.taskContainer {
+  height: fit-content;
+  width: 382px;
+  margin-top: 20px;
+}
+
+.taskCard {
+  padding: 0 8px 0 10px;
+  width: inherit;
+  height: 40px;
+  background-color: #f2f2f2;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: 5px 0 5px 0;
+  word-break: break-all;
+}
+
+.bottomContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.pendingTask {
+  font-size: 18px;
+}
+
+.clearAllButton {
+  background-color: #8e49e9;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
