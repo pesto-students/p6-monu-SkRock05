@@ -1,0 +1,32 @@
+.resultCard {
+  background-color: #455a64;
+  height: 60%;
+  width: 95%;
+  display: flex;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputLinkContainer {
+  color: #f5f5f5;
+  margin-left: 15px;
+}
+
+.resultLinkContainer {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copyLink {
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+}
+
+.resultLink {
+  color: #eed9f1;
+}
