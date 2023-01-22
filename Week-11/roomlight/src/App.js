@@ -1,21 +1,22 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import "./index.css";
+import { useSelector, useDispatch } from "react-redux";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+export default function App() {
+  const myState = useSelector((state) => state.initialValue);
+  const dispatch = useDispatch();
+
+  const lightedness = myState ? "lit" : "dark";
+
+  const flipLight = () => {
+    dispatch({ type: "TOGGLE" });
+  };
+
+  return (
+    <div className={`room ${lightedness}`}>
+      the room is {lightedness}
+      <br />
+      <button onClick={flipLight}>flip</button>
+    </div>
+  );
 }
-
-export default App;
